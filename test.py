@@ -1,8 +1,8 @@
-# # 1. Test data loader
-# import vnquant.data as dt
-# loader = dt.DataLoader('E1VFVN30', '2021-02-01','2021-04-02', data_source='VND', minimal=True)
-# data = loader.download()
-# print(data)
+# 1. Test data loader
+import vnquant.data as dt
+loader = dt.DataLoader('E1VFVN30', '2021-02-01','2021-04-02', data_source='VND', minimal=True)
+data = loader.download()
+print(data)
 
 # # 2. Test clone finance
 # import vnquant.data as dt
